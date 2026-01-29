@@ -1,5 +1,5 @@
 ---
-title: 3D Tool
+title: 3D Extrude
 description: Transform 2D shapes into 3D objects with the 3D Extrusion tool. Adjust depth and rotation to create realistic 3D representations on the canvas.
 ---
 

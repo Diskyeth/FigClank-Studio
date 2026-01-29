@@ -1,21 +1,25 @@
 ---
-title: AI Design Generator
-description: Use the AI input from the toolbar to generate mini app screens from a text description. Describe the screen you want, and the AI creates a frame with layout, components, and styling.
+title: "AI Design Generator"
+description: "Use the AI input from the toolbar to generate mini app screens from a text description. Describe the screen you want, and the AI creates a frame with layout, components, and styling."
 ---
 
 Use the AI input from the toolbar to generate mini app screens from a text description. Describe the screen you want, and the AI will create a frame with layout, components, and styling for you.
 
 ## Enable the AI Input
 
-| Icon | Tool | Description |
-|------|------|-------------|
+| Icon                                                                                                                                                    | Tool                | Description                                                                                              |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------- | -------------------------------------------------------------------------------------------------------- |
 | ![AI Input](https://raw.githubusercontent.com/Diskyeth/FigClank-Studio/d55f9112804375334214c3cbc9e967a07507aee3/docs/doc_resources/icons/ai-sparks.svg) | **AI Input Toggle** | In the toolbar at the bottom of the screen, tap the AI (sparks) icon to show or hide the AI input panel. |
 
 When the AI input is on, the icon is highlighted and a floating panel appears just above the toolbar with a text area and a Generate button.
 
 ## Describe Your Mini App Screen
 
-![AI Create input panel](https://raw.githubusercontent.com/Diskyeth/FigClank-Studio/d55f9112804375334214c3cbc9e967a07507aee3/docs/doc_resources/images/FAQ_Ai_Create.png)
+<img
+  src="https://raw.githubusercontent.com/Diskyeth/FigClank-Studio/d55f9112804375334214c3cbc9e967a07507aee3/docs/doc_resources/images/FAQ_Ai_Create.png"
+  alt="AI Create input panel"
+  className="mx-auto"
+/>
 
 In the text area, describe the mini app screen you want the AI to design. Be specific about:
 

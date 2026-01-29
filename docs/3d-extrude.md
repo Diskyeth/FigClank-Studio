@@ -1,6 +1,6 @@
 ---
-title: 3D Extrude
-description: Transform 2D shapes into 3D objects with the 3D Extrusion tool. Adjust depth and rotation to create realistic 3D representations on the canvas.
+title: "3D Extrude"
+description: "Transform 2D shapes into 3D objects with the 3D Extrusion tool. Adjust depth and rotation to create realistic 3D representations on the canvas."
 ---
 
 The 3D Extrusion tool transforms 2D shapes into 3D objects by extruding them along a depth axis. This creates realistic 3D representations that can be rotated and viewed from different angles.
@@ -9,13 +9,13 @@ The 3D Extrusion tool transforms 2D shapes into 3D objects by extruding them alo
 
 Input shape → 3D Extrude modal (depth & rotation) → 3D output on canvas.
 
-![Input](https://raw.githubusercontent.com/Diskyeth/FigClank-Studio/d55f9112804375334214c3cbc9e967a07507aee3/docs/doc_resources/images/FAQ_3DExtrude_InputExample_.png) → ![3D Extrude Modal](https://raw.githubusercontent.com/Diskyeth/FigClank-Studio/d55f9112804375334214c3cbc9e967a07507aee3/docs/doc_resources/images/FAQ_3DExtrude_Modal_.png) → ![3D Output](https://raw.githubusercontent.com/Diskyeth/FigClank-Studio/d55f9112804375334214c3cbc9e967a07507aee3/docs/doc_resources/images/FAQ_3DExtrude_OutputExample_.png)
+<img src="https://raw.githubusercontent.com/Diskyeth/FigClank-Studio/d55f9112804375334214c3cbc9e967a07507aee3/docs/doc_resources/images/FAQ_3DExtrude_InputExample_.png" alt="Input" /> → <img src="https://raw.githubusercontent.com/Diskyeth/FigClank-Studio/d55f9112804375334214c3cbc9e967a07507aee3/docs/doc_resources/images/FAQ_3DExtrude_Modal_.png" alt="3D Extrude Modal" /> → <img src="https://raw.githubusercontent.com/Diskyeth/FigClank-Studio/d55f9112804375334214c3cbc9e967a07507aee3/docs/doc_resources/images/FAQ_3DExtrude_OutputExample_.png" alt="3D Output" />
 
 ## Accessing the Tool
 
-| Icon | Tool | Description |
-|------|------|-------------|
-| ![3D Extrude](https://raw.githubusercontent.com/Diskyeth/FigClank-Studio/d55f9112804375334214c3cbc9e967a07507aee3/docs/doc_resources/icons/toolbar-extrude-3d.svg) | **3D Extrude Button** | Located in the toolbar. Click to open the 3D extrusion modal. |
+| Icon                                                                                                                                                                                                             | Tool                  | Description                                                   |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------- | ------------------------------------------------------------- |
+| <img   src="https://raw.githubusercontent.com/Diskyeth/FigClank-Studio/d55f9112804375334214c3cbc9e967a07507aee3/docs/doc_resources/icons/toolbar-extrude-3d.svg"   alt="3D Extrude"   style={{ width:"49%" }} /> | **3D Extrude Button** | Located in the toolbar. Click to open the 3D extrusion modal. |
 
 ## Supported Shapes
 

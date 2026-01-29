@@ -1,7 +1,6 @@
 ---
 title: Frames
-description: Container elements for organizing content. Use frame templates for Mini Apps, phone, tablet, and desktop sizes.
-icon: frame
+description: Use the AI input from the toolbar to generate mini app screens from a text description. Describe the screen you want, and the AI creates a frame with layout, components, and styling.
 ---
 
 ## Frame Basics

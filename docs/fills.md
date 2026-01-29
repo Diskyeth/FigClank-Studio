@@ -1,7 +1,6 @@
 ---
 title: Fills
 description: Apply solid colors, gradients (linear, radial, angular, diamond), or image fills to shapes and frames.
-icon: palette
 ---
 
 ## Solid Color

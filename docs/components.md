@@ -1,7 +1,6 @@
 ---
 title: Components
 description: Reusable design elements that keep your designs consistent. Update a component once and all instances (siblings) update automatically.
-icon: puzzle
 ---
 
 Components are reusable design elements that help you maintain consistency across your designs. When you update a component, all instances (called "component siblings") automatically update to match.

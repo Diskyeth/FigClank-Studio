@@ -1,7 +1,6 @@
 ---
 title: Keyboard Shortcuts
 description: Quick reference for tool selection, viewport and zoom, rulers, edit actions, and mouse interactions in FigClank.
-icon: keyboard
 ---
 
 ## Tool Selection

@@ -1,7 +1,6 @@
 ---
 title: Auto Layout
 description: Auto Layout automatically arranges and spaces child elements within frames, components, and instances. Create responsive designs that adjust as content changes.
-icon: layout-grid
 ---
 
 Auto Layout automatically arranges and spaces child elements within frames, components, and instances. It helps create responsive designs that adjust automatically as content changes.

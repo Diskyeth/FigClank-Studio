@@ -1,7 +1,6 @@
 ---
 title: Text
 description: Add and style text with the text tool. Choose fonts, weights, alignment, and spacing.
-icon: type
 ---
 
 ## Adding Text

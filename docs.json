@@ -1,16 +1,36 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Documentation",
+  "name": "FigClank Studio Documentation",
   "colors": {
     "primary": "#0D9373"
   },
-  "navigation": {
-    "groups": [
-      {
-        "group": "Getting Started",
-        "pages": []
-      }
-    ]
-  }
+  "navigation": [
+    {
+      "group": "Getting Started",
+      "pages": [
+        "docs/toolbar",
+        "docs/keyboard-shortcuts"
+      ]
+    },
+    {
+      "group": "Design Tools",
+      "pages": [
+        "docs/frames",
+        "docs/text",
+        "docs/components",
+        "docs/3d-extrude",
+        "docs/ai-design-generator"
+      ]
+    },
+    {
+      "group": "Styling & Layout",
+      "pages": [
+        "docs/fills",
+        "docs/effects",
+        "docs/alignment",
+        "docs/auto-layout"
+      ]
+    }
+  ]
 }

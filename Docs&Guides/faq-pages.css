@@ -1,0 +1,46 @@
+/* Shared styles for FAQ HTML pages in docs */
+:root {
+  --bg: #1a1a1a;
+  --surface: #2a2a2a;
+  --text: #e5e5e5;
+  --text-muted: #a3a3a3;
+  --accent: #a855f7;
+  --border: #404040;
+}
+
+* { box-sizing: border-box; }
+body {
+  font-family: system-ui, -apple-system, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+h1 { font-size: 1.5rem; margin-top: 0; }
+h2 { font-size: 1.25rem; margin: 1.5rem 0 0.5rem; color: #fff; }
+h3 { font-size: 1.1rem; margin: 1.25rem 0 0.5rem; color: #fff; }
+p { margin: 0.5rem 0; color: var(--text-muted); font-size: 0.9375rem; }
+ul, ol { margin: 0.5rem 0; padding-left: 1.5rem; color: var(--text-muted); font-size: 0.9375rem; }
+li { margin: 0.25rem 0; }
+code { background: var(--surface); padding: 0.15em 0.4em; border-radius: 4px; font-size: 0.9em; }
+a { color: var(--accent); }
+.tool-row { display: flex; align-items: flex-start; gap: 0.75rem; margin: 0.75rem 0; }
+.tool-row .icon {
+  width: 32px; height: 32px; border-radius: 6px; background: var(--surface); border: 1px solid var(--border);
+  flex-shrink: 0; display: flex; align-items: center; justify-content: center;
+}
+.tool-row .icon img { width: 14px; height: 14px; object-fit: contain; }
+.tool-row strong { color: #fff; }
+.section { margin-bottom: 1.5rem; }
+.attribution { border: 1px solid var(--border); border-radius: 8px; padding: 1rem; margin: 1rem 0; }
+.attribution strong { color: #fff; }
+table { width: 100%; border-collapse: collapse; margin: 0.75rem 0; font-size: 0.9375rem; }
+th, td { border: 1px solid var(--border); padding: 0.5rem 0.75rem; text-align: left; }
+th { background: var(--surface); color: #fff; }
+td { color: var(--text-muted); }
+td code { white-space: nowrap; }
+img { max-width: 100%; height: auto; border-radius: 8px; border: 1px solid var(--border); }
+.nav { margin-bottom: 2rem; font-size: 0.875rem; }
+.nav a { margin-right: 1rem; }

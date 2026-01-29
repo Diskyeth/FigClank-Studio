@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>3D-Extrude – FigClank</title>
+  <link rel="stylesheet" href="faq-pages.css" />
+</head>
+<body>
+  <h1>3D Tool</h1>
+  <p>The 3D Extrusion tool transforms 2D shapes into 3D objects by extruding them along a depth axis. This creates realistic 3D representations that can be rotated and viewed from different angles.</p>
+
+  <section class="section">
+    <h2>Workflow</h2>
+    <p>Input shape → 3D Extrude modal (depth & rotation) → 3D output on canvas.</p>
+    <p>
+      <img src="doc_resources/images/FAQ_3DExtrude_InputExample_.png" alt="Input" width="150" />
+      →
+      <img src="doc_resources/images/FAQ_3DExtrude_Modal_.png" alt="3D Extrude Modal" width="225" />
+      →
+      <img src="doc_resources/images/FAQ_3DExtrude_OutputExample_.png" alt="3D Output" width="175" />
+    </p>
+  </section>
+
+  <section class="section">
+    <h2>Accessing the Tool</h2>
+    <div class="tool-row">
+      <div class="icon"><img src="doc_resources/icons/toolbar-extrude-3d.svg" alt="3D Extrude" /></div>
+      <div>
+        <p><strong>3D Extrude Button</strong></p>
+        <p>Located in the toolbar. Click to open the 3D extrusion modal.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>Supported Shapes</h2>
+    <p>The 3D tool works with the following shape types:</p>
+    <ul>
+      <li><strong>Rectangles:</strong> Creates a rectangular prism with front, back, and four side faces</li>
+      <li><strong>Circles/Ellipses:</strong> Creates a cylindrical extrusion with front, back, and curved side faces</li>
+      <li><strong>Vectors:</strong> Basic vector path support (simplified extrusion)</li>
+    </ul>
+  </section>
+
+  <section class="section">
+    <h2>Controls</h2>
+    <h3>Depth</h3>
+    <p>Adjust the extrusion depth (1–500px). This determines how far the shape extends in the Z-axis, creating the 3D effect.</p>
+    <h3>Rotation</h3>
+    <p>Set rotation angles for each axis:</p>
+    <ul>
+      <li><strong>X-axis:</strong> Rotate around horizontal axis (pitch)</li>
+      <li><strong>Y-axis:</strong> Rotate around vertical axis (yaw)</li>
+      <li><strong>Z-axis:</strong> Rotate around depth axis (roll)</li>
+    </ul>
+    <p>Values are in degrees (0–360°). You can also drag the preview to adjust rotation interactively.</p>
+  </section>
+</body>
+</html>

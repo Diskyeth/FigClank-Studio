@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Components – FigClank</title>
+  <link rel="stylesheet" href="faq-pages.css" />
+</head>
+<body>
+  <h1>Components</h1>
+  <p>Components are reusable design elements that help you maintain consistency across your designs. When you update a component, all instances (called "component siblings") automatically update to match.</p>
+
+  <section class="section">
+    <h2>What are Components?</h2>
+    <p>Components are master design elements that serve as templates. They can be any design element or group of elements:</p>
+    <ul>
+      <li>Buttons, cards, or UI elements</li>
+      <li>Icons or logos</li>
+      <li>Complex nested structures with multiple layers</li>
+      <li>Any design element you want to reuse</li>
+    </ul>
+    <p>Components appear in the layers panel with a special component icon and are highlighted in a distinct color to make them easy to identify.</p>
+  </section>
+
+  <section class="section">
+    <h2>Creating Components</h2>
+    <p>To create a component from existing design elements:</p>
+    <ol>
+      <li>Select one or more elements on the canvas</li>
+      <li>Press <code>Option + Cmd + K</code> (Mac) or <code>Alt + Ctrl + K</code> (Windows/Linux)</li>
+      <li>The selected elements are converted into a component</li>
+    </ol>
+    <p><strong>Note:</strong> Elements that are already components will be skipped. You cannot convert the root page node into a component.</p>
+  </section>
+
+  <section class="section">
+    <h2>What are Component Siblings?</h2>
+    <p>Component siblings (also called instances) are copies of a component that are linked to the original. They:</p>
+    <ul>
+      <li>Automatically sync when you edit the original component</li>
+      <li>Maintain their own position and can be moved independently</li>
+      <li>Are named with a "Sibling" suffix (e.g., "Button Sibling")</li>
+      <li>Appear in the layers panel with a sibling icon</li>
+    </ul>
+    <p>When you update a component's properties (colors, text, size, effects, etc.), all of its siblings automatically update to reflect those changes.</p>
+  </section>
+
+  <section class="section">
+    <h2>Using Components</h2>
+    <h3>Viewing Components</h3>
+    <p>Open the left sidebar and click the "Components" tab to see all components in your design. Each component shows a preview thumbnail and its name.</p>
+    <h3>Creating Siblings</h3>
+    <ol>
+      <li>Open the Components tab in the left sidebar</li>
+      <li>Drag a component from the sidebar onto the canvas</li>
+      <li>A new sibling instance is created at the drop location</li>
+    </ol>
+    <h3>Editing Components</h3>
+    <p>When you edit a component (change colors, text, size, effects, etc.), all of its siblings automatically update to match. This includes changes to nested elements within the component.</p>
+    <h3>Identifying Components and Siblings</h3>
+    <ul>
+      <li>Components show a component icon and are highlighted in a special color</li>
+      <li>Siblings show a sibling icon and have "Sibling" in their name</li>
+      <li>Both types are easy to spot in the layer hierarchy</li>
+    </ul>
+  </section>
+
+  <section class="section">
+    <h2>Best Practices</h2>
+    <ul>
+      <li><strong>Create components for reusable elements:</strong> Buttons, cards, icons, and other UI elements that appear multiple times</li>
+      <li><strong>Use siblings for consistency:</strong> When you need multiple copies of the same element, create siblings instead of duplicating</li>
+      <li><strong>Edit the component, not siblings:</strong> To update all instances at once, edit the original component</li>
+      <li><strong>Organize with clear names:</strong> Give components descriptive names to make them easy to find in the Components tab</li>
+    </ul>
+  </section>
+</body>
+</html>
